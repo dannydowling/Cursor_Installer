@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using System.Reflection;
 using System.Resources;
 
@@ -18,8 +17,7 @@ namespace Cursor_Installer
             string infResource = string.Format($@".\Resources\{cursorName}\{cursorName}.inf");
 
             // Execute the INF file to install the cursor
-            ProcessStartInfo startInfo = new ProcessStartInfo(m_strInstallUtil, strExePath);
-            System.Diagnostics.Process.Start(startInfo);
+
 
             System.Diagnostics.Process.Start("rundll32.exe", $"syssetup,SetupInfObjectInstallAction DefaultInstall 132 {infResource}");
         }
