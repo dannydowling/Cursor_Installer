@@ -1,4 +1,5 @@
 using System.Reflection;
+using System.Resources;
 
 namespace Cursor_Installer
 {
@@ -9,217 +10,228 @@ namespace Cursor_Installer
             InitializeComponent();
         }
 
-
-
         private void InstallCursor(string cursorName)
         {
-            string infResource = GERString(cursorName);
+           // string infResource = GetPath(cursorName);
+            // object? infResource = Properties.Resources.ResourceManager.GetObject(cursorName);
+            string infResource = string.Format($@".\Resources\{cursorName}\{cursorName}.inf");
 
             // Execute the INF file to install the cursor
-            System.Diagnostics.Process.Start("rundll32.exe", $"shell32.dll,Control_RunDLL {infResource}");
+            System.Diagnostics.Process.Start("rundll32.exe", $"advpack.dll,LaunchINFSectionEx {infResource},,,4");
         }
 
-        internal static string GERString(string resourceFileName)
+        private void RemoveCursor(string cursorName)
         {
-            var stream = GetEmbeddedResourceStream(Assembly.GetCallingAssembly(), resourceFileName);
-            using (var streamReader = new StreamReader(stream))
-            {
-                return streamReader.ReadToEnd();
-            }
+            string infResource = GetPath(cursorName);
+
+            // Execute the INF file to install the cursor
+            System.Diagnostics.Process.Start("rundll32.exe", $"advpack.dll,LaunchINFSectionEx {infResource},,,256");
         }
 
-        internal static Stream GetEmbeddedResourceStream(Assembly assembly, string resourceFileName)
-
+        protected static string GetPath(string resourcePath)
         {
-            var resourceNames = assembly.GetManifestResourceNames();
-            var resourcePaths = resourceNames
-                .Where(x => x.EndsWith(resourceFileName, StringComparison.CurrentCultureIgnoreCase))
-                .ToArray();
-            return assembly.GetManifestResourceStream(resourcePaths.Single());
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            List<string> resourceNames = new List<string>(assembly.GetManifestResourceNames());
+
+            //resourcePath = resourcePath.Replace('/', '.');
+            //resourcePath = resourcePath.Replace('\\', '.');
+            resourcePath = resourceNames.FirstOrDefault(r => r.Contains(resourcePath));
+
+            if (resourcePath == null)
+                throw new FileNotFoundException("Resource not found");
+
+            return assembly.GetManifestResourceInfo(resourcePath).ResourceLocation.ToString();
         }
+
+        //internal static string GetPath(string resourceFileName)
+        //{
+        //   string cursorPathInfo = Assembly.GetExecutingAssembly().GetManifestResourceInfo(resourceFileName).ResourceLocation.ToString();
+           
+        //    return cursorPathInfo;           
+        //}
 
         private void button1_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-black.inf");
+            InstallCursor("oxy-black");
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-blue.inf");
+            InstallCursor("oxy-blue");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-bluecurve.inf");
+            InstallCursor("oxy-bluecurve");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-brown.inf");
+            InstallCursor("oxy-brown");
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-cherry.inf");
+            InstallCursor("oxy-cherry");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-chrome.inf");
+            InstallCursor("oxy-chrome");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-desert.inf");
+            InstallCursor("oxy-desert");
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-emerald.inf");
+            InstallCursor("oxy-emerald");
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-green.inf");
+            InstallCursor("oxy-green");
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-grey.inf");
+            InstallCursor("oxy-grey");
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-honeycomb.inf");
+            InstallCursor("oxy-honeycomb");
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-hotorange.inf");
+            InstallCursor("oxy-hotorange");
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-lilac.inf");
+            InstallCursor("oxy-lilac");
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-midnight_meadow.inf");
+            InstallCursor("oxy-midnight_meadow");
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-navy.inf");
+            InstallCursor("oxy-navy");
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-norway.inf");
+            InstallCursor("oxy-norway");
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-obsidian.inf");
+            InstallCursor("oxy-obsidian");
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-obsidian-hc.inf");
+            InstallCursor("oxy-obsidian-hc");
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-olympus.inf");
+            InstallCursor("oxy-olympus");
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-olympus-inv.inf");
+            InstallCursor("oxy-olympus-inv");
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-orchid.inf");
+            InstallCursor("oxy-orchid");
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-oxygen.inf");
+            InstallCursor("oxy-oxygen");
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-peach.inf");
+            InstallCursor("oxy-peach");
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-purple.inf");
+            InstallCursor("oxy-purple");
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-red.inf");
+            InstallCursor("oxy-red");
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-red-argentina.inf");
+            InstallCursor("oxy-red-argentina");
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-sea_blue.inf");
+            InstallCursor("oxy-sea_blue");
         }
 
         private void button30_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-steel.inf");
+            InstallCursor("oxy-steel");
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-terra.inf");
+            InstallCursor("oxy-terra");
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-terra_green.inf");
+            InstallCursor("oxy-terra_green");
         }
 
         private void button37_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-violet.inf");
+            InstallCursor("oxy-violet");
         }
 
         private void button36_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-viorange.inf");
+            InstallCursor("oxy-viorange");
         }
 
         private void button35_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-white.inf");
+            InstallCursor("oxy-white");
         }
 
         private void button34_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-whitewater.inf");
+            InstallCursor("oxy-whitewater");
         }
 
         private void button33_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-wonton.inf");
+            InstallCursor("oxy-wonton");
         }
 
         private void button32_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-yellow.inf");
+            InstallCursor("oxy-yellow");
         }
 
         private void button31_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-zion.inf");
+            InstallCursor("oxy-zion");
         }
     }
 }
