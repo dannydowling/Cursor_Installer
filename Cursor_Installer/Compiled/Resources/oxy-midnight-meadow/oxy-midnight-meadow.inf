@@ -32,8 +32,8 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 "pointing_hand.cur"
 
 [Strings]
-CUR_DIR		= "Cursors\Oxygen\oxy-sea_blue"
-SCHEME_NAME	= "oxy-sea_blue"
+CUR_DIR		= "Cursors\Oxygen\oxy-midnight-meadow"
+SCHEME_NAME	= "oxy-midnight-meadow"
 pointer		= "left_ptr.cur"
 help		= "help.cur"
 work		= "left_ptr_watch.ani"

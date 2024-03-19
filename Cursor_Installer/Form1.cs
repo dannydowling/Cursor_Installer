@@ -108,7 +108,7 @@ namespace Cursor_Installer
 
         private void button19_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-hotorange");
+            InstallCursor("oxy-hot-orange");
         }
 
         private void button18_Click(object sender, EventArgs e)
@@ -118,7 +118,7 @@ namespace Cursor_Installer
 
         private void button17_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-midnight_meadow");
+            InstallCursor("oxy-midnight-meadow");
         }
 
         private void button16_Click(object sender, EventArgs e)
