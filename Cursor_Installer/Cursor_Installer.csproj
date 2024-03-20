@@ -196,23 +196,23 @@
     <None Remove="Resources\oxy-honeycomb\Text.cur" />
     <None Remove="Resources\oxy-honeycomb\up_arrow.cur" />
     <None Remove="Resources\oxy-honeycomb\watch.ani" />
-    <None Remove="Resources\oxy-hot_orange\cross.cur" />
-    <None Remove="Resources\oxy-hot_orange\forbidden.cur" />
-    <None Remove="Resources\oxy-hot_orange\help.cur" />
-    <None Remove="Resources\oxy-hot_orange\left_ptr.cur" />
-    <None Remove="Resources\oxy-hot_orange\left_ptr_watch.ani" />
-    <None Remove="Resources\oxy-hot_orange\oxy-hot_orange.inf" />
-    <None Remove="Resources\oxy-hot_orange\pencil.cur" />
-    <None Remove="Resources\oxy-hot_orange\pointing_hand.cur" />
-    <None Remove="Resources\oxy-hot_orange\preview.jpg" />
-    <None Remove="Resources\oxy-hot_orange\size_all.cur" />
-    <None Remove="Resources\oxy-hot_orange\size_bdiag.cur" />
-    <None Remove="Resources\oxy-hot_orange\size_fdiag.cur" />
-    <None Remove="Resources\oxy-hot_orange\size_hor.cur" />
-    <None Remove="Resources\oxy-hot_orange\size_ver.cur" />
-    <None Remove="Resources\oxy-hot_orange\Text.cur" />
-    <None Remove="Resources\oxy-hot_orange\up_arrow.cur" />
-    <None Remove="Resources\oxy-hot_orange\watch.ani" />
+    <None Remove="Resources\oxy-hot-orange\cross.cur" />
+    <None Remove="Resources\oxy-hot-orange\forbidden.cur" />
+    <None Remove="Resources\oxy-hot-orange\help.cur" />
+    <None Remove="Resources\oxy-hot-orange\left_ptr.cur" />
+    <None Remove="Resources\oxy-hot-orange\left_ptr_watch.ani" />
+    <None Remove="Resources\oxy-hot-orange\oxy-hot-orange.inf" />
+    <None Remove="Resources\oxy-hot-orange\pencil.cur" />
+    <None Remove="Resources\oxy-hot-orange\pointing_hand.cur" />
+    <None Remove="Resources\oxy-hot-orange\preview.jpg" />
+    <None Remove="Resources\oxy-hot-orange\size_all.cur" />
+    <None Remove="Resources\oxy-hot-orange\size_bdiag.cur" />
+    <None Remove="Resources\oxy-hot-orange\size_fdiag.cur" />
+    <None Remove="Resources\oxy-hot-orange\size_hor.cur" />
+    <None Remove="Resources\oxy-hot-orange\size_ver.cur" />
+    <None Remove="Resources\oxy-hot-orange\Text.cur" />
+    <None Remove="Resources\oxy-hot-orange\up_arrow.cur" />
+    <None Remove="Resources\oxy-hot-orange\watch.ani" />
     <None Remove="Resources\oxy-lilac\cross.cur" />
     <None Remove="Resources\oxy-lilac\forbidden.cur" />
     <None Remove="Resources\oxy-lilac\help.cur" />
@@ -230,23 +230,23 @@
     <None Remove="Resources\oxy-lilac\Text.cur" />
     <None Remove="Resources\oxy-lilac\up_arrow.cur" />
     <None Remove="Resources\oxy-lilac\watch.ani" />
-    <None Remove="Resources\oxy-midnight_meadow\cross.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\forbidden.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\help.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\left_ptr.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\left_ptr_watch.ani" />
-    <None Remove="Resources\oxy-midnight_meadow\oxy-midnight_meadow.inf" />
-    <None Remove="Resources\oxy-midnight_meadow\pencil.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\pointing_hand.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\preview.jpg" />
-    <None Remove="Resources\oxy-midnight_meadow\size_all.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\size_bdiag.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\size_fdiag.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\size_hor.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\size_ver.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\Text.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\up_arrow.cur" />
-    <None Remove="Resources\oxy-midnight_meadow\watch.ani" />
+    <None Remove="Resources\oxy-midnight-meadow\cross.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\forbidden.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\help.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\left_ptr.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\left_ptr_watch.ani" />
+    <None Remove="Resources\oxy-midnight-meadow\oxy-midnight-meadow.inf" />
+    <None Remove="Resources\oxy-midnight-meadow\pencil.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\pointing_hand.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\preview.jpg" />
+    <None Remove="Resources\oxy-midnight-meadow\size_all.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\size_bdiag.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\size_fdiag.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\size_hor.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\size_ver.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\Text.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\up_arrow.cur" />
+    <None Remove="Resources\oxy-midnight-meadow\watch.ani" />
     <None Remove="Resources\oxy-navy\cross.cur" />
     <None Remove="Resources\oxy-navy\forbidden.cur" />
     <None Remove="Resources\oxy-navy\help.cur" />
@@ -451,23 +451,23 @@
     <None Remove="Resources\oxy-red\Text.cur" />
     <None Remove="Resources\oxy-red\up_arrow.cur" />
     <None Remove="Resources\oxy-red\watch.ani" />
-    <None Remove="Resources\oxy-sea_blue\cross.cur" />
-    <None Remove="Resources\oxy-sea_blue\forbidden.cur" />
-    <None Remove="Resources\oxy-sea_blue\help.cur" />
-    <None Remove="Resources\oxy-sea_blue\left_ptr.cur" />
-    <None Remove="Resources\oxy-sea_blue\left_ptr_watch.ani" />
-    <None Remove="Resources\oxy-sea_blue\oxy-sea_blue.inf" />
-    <None Remove="Resources\oxy-sea_blue\pencil.cur" />
-    <None Remove="Resources\oxy-sea_blue\pointing_hand.cur" />
-    <None Remove="Resources\oxy-sea_blue\preview.jpg" />
-    <None Remove="Resources\oxy-sea_blue\size_all.cur" />
-    <None Remove="Resources\oxy-sea_blue\size_bdiag.cur" />
-    <None Remove="Resources\oxy-sea_blue\size_fdiag.cur" />
-    <None Remove="Resources\oxy-sea_blue\size_hor.cur" />
-    <None Remove="Resources\oxy-sea_blue\size_ver.cur" />
-    <None Remove="Resources\oxy-sea_blue\Text.cur" />
-    <None Remove="Resources\oxy-sea_blue\up_arrow.cur" />
-    <None Remove="Resources\oxy-sea_blue\watch.ani" />
+    <None Remove="Resources\oxy-sea-blue\cross.cur" />
+    <None Remove="Resources\oxy-sea-blue\forbidden.cur" />
+    <None Remove="Resources\oxy-sea-blue\help.cur" />
+    <None Remove="Resources\oxy-sea-blue\left_ptr.cur" />
+    <None Remove="Resources\oxy-sea-blue\left_ptr_watch.ani" />
+    <None Remove="Resources\oxy-sea-blue\oxy-sea-blue.inf" />
+    <None Remove="Resources\oxy-sea-blue\pencil.cur" />
+    <None Remove="Resources\oxy-sea-blue\pointing_hand.cur" />
+    <None Remove="Resources\oxy-sea-blue\preview.jpg" />
+    <None Remove="Resources\oxy-sea-blue\size_all.cur" />
+    <None Remove="Resources\oxy-sea-blue\size_bdiag.cur" />
+    <None Remove="Resources\oxy-sea-blue\size_fdiag.cur" />
+    <None Remove="Resources\oxy-sea-blue\size_hor.cur" />
+    <None Remove="Resources\oxy-sea-blue\size_ver.cur" />
+    <None Remove="Resources\oxy-sea-blue\Text.cur" />
+    <None Remove="Resources\oxy-sea-blue\up_arrow.cur" />
+    <None Remove="Resources\oxy-sea-blue\watch.ani" />
     <None Remove="Resources\oxy-steel\cross.cur" />
     <None Remove="Resources\oxy-steel\forbidden.cur" />
     <None Remove="Resources\oxy-steel\help.cur" />
@@ -485,6 +485,7 @@
     <None Remove="Resources\oxy-steel\Text.cur" />
     <None Remove="Resources\oxy-steel\up_arrow.cur" />
     <None Remove="Resources\oxy-steel\watch.ani" />
+    <None Remove="Resources\oxy-terra-green\oxy-terra-green.inf" />
     <None Remove="Resources\oxy-terra\cross.cur" />
     <None Remove="Resources\oxy-terra\forbidden.cur" />
     <None Remove="Resources\oxy-terra\help.cur" />
@@ -502,23 +503,22 @@
     <None Remove="Resources\oxy-terra\Text.cur" />
     <None Remove="Resources\oxy-terra\up_arrow.cur" />
     <None Remove="Resources\oxy-terra\watch.ani" />
-    <None Remove="Resources\oxy-terra_green\cross.cur" />
-    <None Remove="Resources\oxy-terra_green\forbidden.cur" />
-    <None Remove="Resources\oxy-terra_green\help.cur" />
-    <None Remove="Resources\oxy-terra_green\left_ptr.cur" />
-    <None Remove="Resources\oxy-terra_green\left_ptr_watch.ani" />
-    <None Remove="Resources\oxy-terra_green\oxy-terra_green.inf" />
-    <None Remove="Resources\oxy-terra_green\pencil.cur" />
-    <None Remove="Resources\oxy-terra_green\pointing_hand.cur" />
-    <None Remove="Resources\oxy-terra_green\preview.jpg" />
-    <None Remove="Resources\oxy-terra_green\size_all.cur" />
-    <None Remove="Resources\oxy-terra_green\size_bdiag.cur" />
-    <None Remove="Resources\oxy-terra_green\size_fdiag.cur" />
-    <None Remove="Resources\oxy-terra_green\size_hor.cur" />
-    <None Remove="Resources\oxy-terra_green\size_ver.cur" />
-    <None Remove="Resources\oxy-terra_green\Text.cur" />
-    <None Remove="Resources\oxy-terra_green\up_arrow.cur" />
-    <None Remove="Resources\oxy-terra_green\watch.ani" />
+    <None Remove="Resources\oxy-terra-green\cross.cur" />
+    <None Remove="Resources\oxy-terra-green\forbidden.cur" />
+    <None Remove="Resources\oxy-terra-green\help.cur" />
+    <None Remove="Resources\oxy-terra-green\left_ptr.cur" />
+    <None Remove="Resources\oxy-terra-green\left_ptr_watch.ani" />
+    <None Remove="Resources\oxy-terra-green\pencil.cur" />
+    <None Remove="Resources\oxy-terra-green\pointing_hand.cur" />
+    <None Remove="Resources\oxy-terra-green\preview.jpg" />
+    <None Remove="Resources\oxy-terra-green\size_all.cur" />
+    <None Remove="Resources\oxy-terra-green\size_bdiag.cur" />
+    <None Remove="Resources\oxy-terra-green\size_fdiag.cur" />
+    <None Remove="Resources\oxy-terra-green\size_hor.cur" />
+    <None Remove="Resources\oxy-terra-green\size_ver.cur" />
+    <None Remove="Resources\oxy-terra-green\Text.cur" />
+    <None Remove="Resources\oxy-terra-green\up_arrow.cur" />
+    <None Remove="Resources\oxy-terra-green\watch.ani" />
     <None Remove="Resources\oxy-violet\cross.cur" />
     <None Remove="Resources\oxy-violet\forbidden.cur" />
     <None Remove="Resources\oxy-violet\help.cur" />
@@ -1202,55 +1202,55 @@
     <EmbeddedResource Include="Resources\oxy-honeycomb\watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\cross.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\cross.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\forbidden.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\forbidden.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\help.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\help.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\left_ptr.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\left_ptr.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\left_ptr_watch.ani">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\left_ptr_watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\oxy-hot_orange.inf">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\oxy-hot-orange.inf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\pencil.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\pencil.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\pointing_hand.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\pointing_hand.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\preview.jpg">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\preview.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\size_all.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\size_all.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\size_bdiag.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\size_bdiag.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\size_fdiag.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\size_fdiag.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\size_hor.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\size_hor.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\size_ver.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\size_ver.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\Text.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\Text.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\up_arrow.cur">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\up_arrow.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-hot_orange\watch.ani">
+    <EmbeddedResource Include="Resources\oxy-hot-orange\watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\oxy-lilac\cross.cur">
@@ -1304,55 +1304,55 @@
     <EmbeddedResource Include="Resources\oxy-lilac\watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\cross.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\cross.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\forbidden.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\forbidden.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\help.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\help.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\left_ptr.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\left_ptr.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\left_ptr_watch.ani">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\left_ptr_watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\oxy-midnight_meadow.inf">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\oxy-midnight-meadow.inf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\pencil.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\pencil.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\pointing_hand.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\pointing_hand.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\preview.jpg">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\preview.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\size_all.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\size_all.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\size_bdiag.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\size_bdiag.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\size_fdiag.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\size_fdiag.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\size_hor.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\size_hor.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\size_ver.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\size_ver.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\Text.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\Text.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\up_arrow.cur">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\up_arrow.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-midnight_meadow\watch.ani">
+    <EmbeddedResource Include="Resources\oxy-midnight-meadow\watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\oxy-navy\cross.cur">
@@ -1967,55 +1967,55 @@
     <EmbeddedResource Include="Resources\oxy-red\watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\cross.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\cross.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\forbidden.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\forbidden.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\help.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\help.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\left_ptr.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\left_ptr.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\left_ptr_watch.ani">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\left_ptr_watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\oxy-sea_blue.inf">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\oxy-sea-blue.inf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\pencil.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\pencil.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\pointing_hand.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\pointing_hand.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\preview.jpg">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\preview.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\size_all.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\size_all.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\size_bdiag.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\size_bdiag.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\size_fdiag.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\size_fdiag.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\size_hor.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\size_hor.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\size_ver.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\size_ver.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\Text.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\Text.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\up_arrow.cur">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\up_arrow.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-sea_blue\watch.ani">
+    <EmbeddedResource Include="Resources\oxy-sea-blue\watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\oxy-steel\cross.cur">
@@ -2120,55 +2120,55 @@
     <EmbeddedResource Include="Resources\oxy-terra\watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\cross.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\cross.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\forbidden.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\forbidden.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\help.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\help.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\left_ptr.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\left_ptr.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\left_ptr_watch.ani">
+    <EmbeddedResource Include="Resources\oxy-terra-green\left_ptr_watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\oxy-terra_green.inf">
+    <EmbeddedResource Include="Resources\oxy-terra-green\oxy-terra-green.inf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\pencil.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\pencil.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\pointing_hand.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\pointing_hand.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\preview.jpg">
+    <EmbeddedResource Include="Resources\oxy-terra-green\preview.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\size_all.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\size_all.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\size_bdiag.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\size_bdiag.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\size_fdiag.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\size_fdiag.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\size_hor.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\size_hor.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\size_ver.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\size_ver.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\Text.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\Text.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\up_arrow.cur">
+    <EmbeddedResource Include="Resources\oxy-terra-green\up_arrow.cur">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\oxy-terra_green\watch.ani">
+    <EmbeddedResource Include="Resources\oxy-terra-green\watch.ani">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\oxy-violet\cross.cur">

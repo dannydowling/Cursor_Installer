@@ -173,7 +173,7 @@ namespace Cursor_Installer
 
         private void button19_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-hotorange");
+            InstallCursor("oxy-hot-orange");
         }
 
         private void button18_Click(object sender, EventArgs e)
@@ -183,7 +183,7 @@ namespace Cursor_Installer
 
         private void button17_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-midnight_meadow");
+            InstallCursor("oxy-midnight-meadow");
         }
 
         private void button16_Click(object sender, EventArgs e)
@@ -248,7 +248,7 @@ namespace Cursor_Installer
 
         private void button21_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-sea_blue");
+            InstallCursor("oxy-sea-blue");
         }
 
         private void button30_Click(object sender, EventArgs e)
@@ -263,7 +263,7 @@ namespace Cursor_Installer
 
         private void button28_Click(object sender, EventArgs e)
         {
-            InstallCursor("oxy-terra_green");
+            InstallCursor("oxy-terra-green");
         }
 
         private void button37_Click(object sender, EventArgs e)
