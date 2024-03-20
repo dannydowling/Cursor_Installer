@@ -1,32 +1,106 @@
+using System.IO.Pipes;
 using System.Reflection;
 using System.Resources;
+using System.Text;
+using System.Windows.Forms;
 
 namespace Cursor_Installer
 {
     public partial class Form1 : Form
     {
+
+        private NotifyIcon notifyIcon;
+        private ContextMenuStrip contextMenuStrip;
         public Form1()
         {
             InitializeComponent();
+            InitializeNotifyIcon();
+        }
+
+        private void InitializeNotifyIcon()
+        {
+            // Create NotifyIcon
+            notifyIcon = new NotifyIcon();
+            notifyIcon.Icon = SystemIcons.Application; //change to a better icon
+            notifyIcon.Text = "Cursors";
+
+            // Create ContextMenuStrip
+            contextMenuStrip = new ContextMenuStrip();
+
+            // Add menu items to ContextMenuStrip
+            ToolStripMenuItem openMenuItem = new ToolStripMenuItem("Open");
+            openMenuItem.Click += OpenMenuItem_Click;
+            contextMenuStrip.Items.Add(openMenuItem);
+
+            ToolStripMenuItem exitMenuItem = new ToolStripMenuItem("Exit");
+            exitMenuItem.Click += ExitMenuItem_Click;
+            contextMenuStrip.Items.Add(exitMenuItem);
+
+            // Assign ContextMenuStrip to NotifyIcon
+            notifyIcon.ContextMenuStrip = contextMenuStrip;
+
+            // Handle MouseClick event to open the form on left-click
+            notifyIcon.MouseClick += NotifyIcon_MouseClick;
+        }
+
+        private void NotifyIcon_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                // Open the form on left-click
+                Show();
+                WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void OpenMenuItem_Click(object sender, EventArgs e)
+        {
+            // Open the form when "Open" menu item is clicked
+            Show();
+            WindowState = FormWindowState.Normal;
+        }
+
+        private void ExitMenuItem_Click(object sender, EventArgs e)
+        {
+            // Close the application when "Exit" menu item is clicked
+            notifyIcon.Visible = false;
+            Close();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Hide the form instead of closing it when the close button is clicked
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+                Hide();
+            }
         }
 
         private void InstallCursor(string cursorName)
         {
-           // string infResource = GetPath(cursorName);
-            // object? infResource = Properties.Resources.ResourceManager.GetObject(cursorName);
-            string infResource = string.Format($@".\Resources\{cursorName}\{cursorName}.inf");
-
-            // Execute the INF file to install the cursor
-
-
-            System.Diagnostics.Process.Start("rundll32.exe", $"syssetup,SetupInfObjectInstallAction DefaultInstall 132 {infResource}");
+            try
+            {
+                // Send message to the service worker
+                string message = cursorName;
+                using (NamedPipeClientStream pipeClient = new NamedPipeClientStream(".", "cursorInstallPipeline", PipeDirection.Out))
+                {
+                    pipeClient.Connect();
+                    byte[] buffer = Encoding.UTF8.GetBytes(message);
+                    pipeClient.Write(buffer, 0, buffer.Length);
+                }
+            }
+            catch (Exception)
+            {
+                string infResource = string.Format($@".\Resources\{cursorName}\{cursorName}.inf");
+                System.Diagnostics.Process.Start("rundll32.exe", $"syssetup,SetupInfObjectInstallAction DefaultInstall 132 {infResource}");
+            }
         }
 
         private void RemoveCursor(string cursorName)
         {
             string infResource = GetPath(cursorName);
-
-            // Execute the INF file to install the cursor
+            // Execute the INF file to uninstall the cursor
             System.Diagnostics.Process.Start("rundll32.exe", $"advpack.dll,LaunchINFSectionEx {infResource},,,256");
         }
 
@@ -34,9 +108,6 @@ namespace Cursor_Installer
         {
             Assembly assembly = Assembly.GetExecutingAssembly();
             List<string> resourceNames = new List<string>(assembly.GetManifestResourceNames());
-
-            //resourcePath = resourcePath.Replace('/', '.');
-            //resourcePath = resourcePath.Replace('\\', '.');
             resourcePath = resourceNames.FirstOrDefault(r => r.Contains(resourcePath));
 
             if (resourcePath == null)
@@ -45,12 +116,6 @@ namespace Cursor_Installer
             return assembly.GetManifestResourceInfo(resourcePath).ResourceLocation.ToString();
         }
 
-        //internal static string GetPath(string resourceFileName)
-        //{
-        //   string cursorPathInfo = Assembly.GetExecutingAssembly().GetManifestResourceInfo(resourceFileName).ResourceLocation.ToString();
-           
-        //    return cursorPathInfo;           
-        //}
 
         private void button1_Click(object sender, EventArgs e)
         {
